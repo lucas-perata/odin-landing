@@ -120,10 +120,18 @@ color:#1f2937}
 
 .cta {display: flex;
 background-color: white;
-color: #1f2937;}
+justify-content: center;
+flex-direction: column;
+height: 200px;
+color:black; } 
 
-
-
+.container-cta {background-color: #3882f6;
+display: flex;
+border-radius: 10px;
+margin: auto;
+width: 900px;
+height: 100px;
+}
 footer {display: flex;
 justify-content: center;
 padding: 20px;
