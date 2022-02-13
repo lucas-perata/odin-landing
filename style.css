@@ -6,9 +6,9 @@ color: white;}
 
 header {
 display: flex;
-justify-content: space-around;
-align-items: center;
-}
+flex-direction: row;
+justify-content: center;
+height: 420px;}
 
 li { 
     list-style-type: none;
@@ -19,34 +19,34 @@ li {
 
 ul {display: flex;
     gap:40px;
+    margin-top: 20px;
 }
 
 .logo {font-size: 24px;
+  
 color: #f9faf8}
 
 
-
-.intro {display: flex;
-    justify-content: space-evenly;
-    padding: 100px;
-    height: 250px;
-    gap: 100px;
+.izq, .der {display: flex;
+    width: 420px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 5px;
 }
 
-.izq, .der {display: flex;
-    width: 450px;
-   min-height: 200px;
+.der {display: flex;
+flex-direction: column;
 }
 
 .izq {
 flex-direction: column;
 font-weight: bold;
-border-style: dotted    ;
 }
 
-.der {
-background-color: gray;
+.img {background-color: gray;
+    
 }
+
 
 .hero {font-size: 48px;
 font-weight:bolder;}
