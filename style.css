@@ -27,10 +27,10 @@ color: #f9faf8}
 
 
 .intro {display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    margin-left: 290px; 
-    margin-right: 290px;
+    justify-content: space-evenly;
+    padding: 100px;
+    height: 250px;
+    gap: 100px;
 }
 
 .izq, .der {display: flex;
@@ -43,7 +43,9 @@ flex-direction: column;
 font-weight: bold;
 }
 
-.der {background-color: grey;}
+.der {
+background-color: gray;
+}
 
 .hero {font-size: 48px;
 font-weight:bolder;}
@@ -54,6 +56,36 @@ margin-right: auto;
 font-weight: bold;
 border-radius: 10px;
 border-style: none;
-padding: 8px;}
+padding: 8px;
+padding-right: 30px;
+padding-left: 30px;}
 
-.info {background-color: white;}
+.info {background-color: white;
+color: black;
+display: flex;
+flex-direction: column;
+height: 360px;
+align-items: center;
+padding: 10px;}
+
+.caja1, .caja2, .caja3, .caja4 {display: flex;
+    flex-direction: column;
+height: 200px;
+border-style: dashed;
+padding: 10px;
+width: 150px;} 
+
+.cajas {display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+.cubito {
+border-style: solid;
+width: 140px;
+height: 190px;
+border-radius: 5px;}
+
+text {padding: 10px;}
+
+.info2 {font-size: 36px;}
