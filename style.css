@@ -35,12 +35,13 @@ color: #f9faf8}
 
 .izq, .der {display: flex;
     width: 450px;
-    height: 200px;
+   min-height: 200px;
 }
 
 .izq {
 flex-direction: column;
 font-weight: bold;
+border-style: dotted    ;
 }
 
 .der {
